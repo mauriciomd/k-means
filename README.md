@@ -1,1 +1,1 @@
-# k-means
+# Simple K-Means implementation
