@@ -10,7 +10,15 @@ Repositório utilizado para apresentação e armazenamento das tarefas da discip
  
  
 ## Experimentos
+Os experimentos foram realizados utilizando o dataset [GDELT Events 1.0](https://www.gdeltproject.org/data.html#rawdatafiles), na qual contém uma versão "reduzida" contendo 1.1Gb de informações. No entanto, para os experimentos optou-se pela compilação de 3 datasets (baseados no dataset orignal) contendo a localização geográfica dos eventos (latitude e longitude), com diferentes tamanhos: 100mb, 200mb e 500mb.
 
+Para os experimentos, utilizou-se um computador equipado com um Intel Core 2 Quad Q8200 @2.33GHz e 4Gb de memória ram DDR3. O sistema operacional utilizado foi o Lubuntu Minimal 18.08LTS. Os resultados obtidos são a média simples resultante de 20 execuções de cada experimento.
+
+<p align="center">
+  <img src="https://image.ibb.co/d7B1Re/100mb.png" width="450px" img/>
+  <img src="https://image.ibb.co/n6X86e/200mb.png" width="450px" img/>
+  <img src="https://image.ibb.co/ekM2hK/500mb.png" width="450px" img/>
+</p>
 
 ## Literatura
 Esta seção tem como objetivo apresentar algumas implementações paralelas do algoritmo de K-means, as quais podem ser encontradas na literatura.
