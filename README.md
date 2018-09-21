@@ -14,11 +14,12 @@ Os experimentos foram realizados utilizando o dataset [GDELT Events 1.0](https:/
 
 Para os experimentos, utilizou-se um computador equipado com um Intel Core 2 Quad Q8200 @2.33GHz e 4Gb de memória ram DDR3. O sistema operacional utilizado foi o Lubuntu Minimal 18.08LTS. Os resultados obtidos são a média simples resultante de 20 execuções de cada experimento.
 
-<p align="center">
-  <img src="https://image.ibb.co/d7B1Re/100mb.png" width="450px" img/>
-  <img src="https://image.ibb.co/n6X86e/200mb.png" width="450px" img/>
-  <img src="https://image.ibb.co/ekM2hK/500mb.png" width="450px" img/>
-</p>
+ <img src="https://image.ibb.co/d7B1Re/100mb.png" width="430px" img/> <img src="https://image.ibb.co/nsS07K/speedup100mb.png" width="430px" img/>
+ 
+ <img src="https://image.ibb.co/n6X86e/200mb.png" width="430px" img/> <img src="https://image.ibb.co/bwprEz/speedup200mb.png" width="430px" img/> 
+ 
+  <img src="https://image.ibb.co/ekM2hK/500mb.png" width="430px" img/> <img src="https://image.ibb.co/bN3wge/speedup500mb.png" width="430px" img/>
+
 
 ## Literatura
 Esta seção tem como objetivo apresentar algumas implementações paralelas do algoritmo de K-means, as quais podem ser encontradas na literatura.
