@@ -3,7 +3,7 @@
 Repositório utilizado para apresentação e armazenamento das tarefas da disciplina ELC893 - Programação de Alto Desempenho/PGCC-UFSM.
 
 
-## Implementações
+## Implementações desenvolvidas
  Há duas implementações simples do algoritmo de [K-means](https://www.datascience.com/blog/k-means-clustering), ambas utilizando C++:
  - k-means.cpp: versão sequencial do algoritmo. O programação recebe como entrada um arquivo texto, com colunas separadas por espaço, e o número de clusters.
  - k-means-openmp.cpp: versão paralela do algortimo utilizando [OpenMP](https://www.openmp.org/). Esta versão recebe os mesmos argumentos da versão sequencial, porém o número de threads pode ser controlado através da variável de ambiente OMP_NUM_THREADS=<número de threads>. A paralelização foi realizada dividindo o dataset entre as várias threads. Assim, cada thread é responsável por calcular a distância eucliadiana de N pontos até as centróides informadas na entrada.
@@ -20,6 +20,14 @@ Para os experimentos, utilizou-se um computador equipado com um Intel Core 2 Qua
  
   <img src="https://image.ibb.co/ekM2hK/500mb.png" width="430px" img/> <img src="https://image.ibb.co/bN3wge/speedup500mb.png" width="430px" img/>
 
+## Implementações encontradas
+Biblioteca|Versão|Linguagem|Link
+----------|------|---------|----
+Scikit-learn|0.19.2|Python|[source](https://github.com/scikit-learn/scikit-learn/blob/f0ab589f/sklearn/cluster/k_means_.py#L707)
+SciPy|1.1.0|Python|[source](https://github.com/scipy/scipy/blob/v1.1.0/scipy/cluster/vq.py#L321-L460)
+Tensorflow|r1.10|Python|[source](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/learn/python/learn/estimators/kmeans.py)
+Weka|3.8.0|Java|[source](https://github.com/Waikato/weka-3.8/blob/master/weka/src/main/java/weka/clusterers/SimpleKMeans.java)
+Deeplearning4j|1.0.0Beta|Java|[source](https://github.com/deeplearning4j/deeplearning4j/blob/master/deeplearning4j/deeplearning4j-nearestneighbors-parent/nearestneighbor-core/src/main/java/org/deeplearning4j/clustering/kmeans/KMeansClustering.java)
 
 ## Literatura
 Esta seção tem como objetivo apresentar algumas implementações paralelas do algoritmo de K-means, as quais podem ser encontradas na literatura.
