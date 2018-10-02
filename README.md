@@ -21,13 +21,18 @@ Para os experimentos, utilizou-se um computador equipado com um Intel Core 2 Qua
   <img src="https://image.ibb.co/ekM2hK/500mb.png" width="430px" img/> <img src="https://image.ibb.co/bN3wge/speedup500mb.png" width="430px" img/>
 
 ## Implementações encontradas
-Biblioteca|Versão|Linguagem|Link
-----------|------|---------|----
-Scikit-learn|0.19.2|Python|[source](https://github.com/scikit-learn/scikit-learn/blob/f0ab589f/sklearn/cluster/k_means_.py#L707)
-SciPy|1.1.0|Python|[source](https://github.com/scipy/scipy/blob/v1.1.0/scipy/cluster/vq.py#L321-L460)
-Tensorflow|r1.10|Python|[source](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/learn/python/learn/estimators/kmeans.py)
-Weka|3.8.0|Java|[source](https://github.com/Waikato/weka-3.8/blob/master/weka/src/main/java/weka/clusterers/SimpleKMeans.java)
-Deeplearning4j|1.0.0Beta|Java|[source](https://github.com/deeplearning4j/deeplearning4j/blob/master/deeplearning4j/deeplearning4j-nearestneighbors-parent/nearestneighbor-core/src/main/java/org/deeplearning4j/clustering/kmeans/KMeansClustering.java)
+Biblioteca|Versão|Linguagem (API)|K-means Implementado?|Link
+----------|------|---------|---------------------|----
+Scikit-learn|0.19.2|Python|Sim|[source](https://github.com/scikit-learn/scikit-learn/blob/f0ab589f/sklearn/cluster/k_means_.py#L707)
+SciPy|1.1.0|Python|Sim|[source](https://github.com/scipy/scipy/blob/v1.1.0/scipy/cluster/vq.py#L321-L460)
+Tensorflow|r1.10|Python|Sim|[source](https://github.com/tensorflow/tensorflow/blob/master/tensorflow/contrib/learn/python/learn/estimators/kmeans.py)
+Weka|3.8.0|Java|Sim|[source](https://github.com/Waikato/weka-3.8/blob/master/weka/src/main/java/weka/clusterers/SimpleKMeans.java)
+Deeplearning4j|1.0.0Beta|Java|Sim|[source](https://github.com/deeplearning4j/deeplearning4j/blob/master/deeplearning4j/deeplearning4j-nearestneighbors-parent/nearestneighbor-core/src/main/java/org/deeplearning4j/clustering/kmeans/KMeansClustering.java)
+CNTK|2.6.0|Python|Não|[Link](https://www.microsoft.com/en-us/cognitive-toolkit/)
+PyTorch|? Beta|Python|Não|[Link](https://pytorch.org/)
+Caffe|1.0|C++/Python|Não|[Link](http://caffe.berkeleyvision.org/)
+Theanos|1.0|Python|Não|[Link](http://deeplearning.net/software/theano/)
+Keras|2.2.0|Python|Não|[Link](https://keras.io/)
 
 ## Literatura
 Esta seção tem como objetivo apresentar algumas implementações paralelas do algoritmo de K-means, as quais podem ser encontradas na literatura.
