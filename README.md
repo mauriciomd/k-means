@@ -19,6 +19,8 @@ Para os experimentos, utilizou-se um computador equipado com um Intel Core 2 Qua
  <img src="https://image.ibb.co/n6X86e/200mb.png" width="430px" img/> <img src="https://image.ibb.co/bwprEz/speedup200mb.png" width="430px" img/> 
  
   <img src="https://image.ibb.co/ekM2hK/500mb.png" width="430px" img/> <img src="https://image.ibb.co/bN3wge/speedup500mb.png" width="430px" img/>
+  
+  <img src="https://image.ibb.co/mBzZ9U/sci_100mb.png" width="430px" img/> <img src="https://image.ibb.co/b8NAip/sci_200mb.png" width="430px" img/>
 
 ## Implementações encontradas
 Biblioteca|Versão|Linguagem (API)|K-means Implementado?|Link
